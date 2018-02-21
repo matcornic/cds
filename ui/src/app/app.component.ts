@@ -101,6 +101,7 @@ export class AppComponent  implements OnInit {
             let lastUpdateEvent: LastModification = JSON.parse(msg);
             this._appService.updateCache(lastUpdateEvent);
         });
+        console.log('test');
     }
 
 
