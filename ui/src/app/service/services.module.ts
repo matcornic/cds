@@ -55,6 +55,7 @@ import {KeyService} from './keys/keys.service';
 export class ServicesModule {
 
     static forRoot(): ModuleWithProviders {
+        console.log('coucou');
         return {
             ngModule: ServicesModule,
             providers: [

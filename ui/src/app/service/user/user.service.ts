@@ -69,6 +69,8 @@ export class UserService {
         return this._http.post('/user/signup', request).map(() => {
             return true;
         });
+
+        console.log('coucou');
     }
 
     /**
